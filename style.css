@@ -1,0 +1,66 @@
+
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    display: flex;
+}
+
+.sidebar {
+    width: 240px;
+    background-color: #1e1e2f;
+    color: white;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+    overflow-y: auto;
+}
+
+.sidebar h2 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.sidebar a {
+    color: #f2a900;
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+.author-photo {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.content {
+    margin-left: 260px;
+    padding: 40px;
+    max-width: 800px;
+}
+
+h2 {
+    color: #333;
+    margin-top: 0;
+}
+
+.book {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.book img {
+    width: 120px;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+}
+
+a {
+    color: #007acc;
+}
